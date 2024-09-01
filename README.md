@@ -82,7 +82,7 @@ A simple honeypot implementation to capture and monitor malicious activity. This
 
     ```bash
     sudo su
-    ./Phasgya-honeypot.sh
+    ./phasgya-honeypot.sh or bash phasgya-honeypot.sh
     ```
 
 2. **Monitor logs in real-time:**
@@ -93,7 +93,7 @@ A simple honeypot implementation to capture and monitor malicious activity. This
     >> sudo journalctl -u ssh -f (if above command for ssh not works)
     or check ssh log in your system / monitor it live 
     
-    >> tail -f /var/log/phasgya.log  # For Flask app logs
+    >> tail -f /var/log/honeypot.log  # For Flask app logs
     ```
 
 ## Usage
@@ -103,9 +103,12 @@ A simple honeypot implementation to capture and monitor malicious activity. This
 
     ```bash
     http://localhost/vulnerable?cmd=ls
+    http://localhost/vulnerable?cmd=cd
+    http://localhost/vulnerable?cmd=passwd
+    http://localhost/vulnerable?cmd=python app.py ( # You Can Run Any Commands )
     ```
 
-- The output of commands and any errors will be logged in `/var/log/phasgya.log`.
+- The output of commands and any errors will be logged in `/var/log/honeypot.log`.
 
 ## Monitoring
 
