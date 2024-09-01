@@ -86,7 +86,20 @@ A simple honeypot implementation to capture and monitor malicious activity. This
     ./phasgya-honeypot.sh or bash phasgya-honeypot.sh
     ```
 
-2. **Monitor logs in real-time:**
+2. **Monitoring**
+
+To monitor the honeypot activity, you can use the `monitor.py` script:
+
+    ```bash
+    python monitor.py
+    ```
+
+This script will print new log entries in a formatted table in real-time.
+
+![monito](https://github.com/user-attachments/assets/a207275e-d4e0-47de-9084-2477ad4b30de)
+
+
+3. **Monitor logs in real-time:**
 
     ```bash
     >> tail -f /var/log/auth.log  # For SSH logs
@@ -111,15 +124,6 @@ A simple honeypot implementation to capture and monitor malicious activity. This
 
 - The output of commands and any errors will be logged in `/var/log/honeypot.log`.
 
-## Monitoring
-
-To monitor the honeypot activity, you can use the `monitor.py` script:
-
-    ```bash
-    python monitor.py
-    ```
-
-This script will print new log entries in a formatted table in real-time.
 
 ## Notes
 
