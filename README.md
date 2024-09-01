@@ -1,21 +1,10 @@
-# Honeypot Project
+# PhasGya-Honeypot 
 
 A simple honeypot implementation to capture and monitor malicious activity. This project uses Flask to create a vulnerable web application and sets up an SSH service for attackers to interact with. It includes logging and monitoring scripts to track and analyze the activity.
 
 **_Project Ongoing...⌛_**
 
 ![honey](https://github.com/user-attachments/assets/a633c386-2043-4d3f-af28-e245e8f38fcc)
-
-
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Monitoring](**Monitoring**)
-- [Notes](#notes)
 
 ## Features
 
@@ -128,5 +117,12 @@ This script will print new log entries in a formatted table in real-time.
 
 - Make sure to adjust permissions and configurations based on your security needs.
 - This setup is intentionally vulnerable for educational purposes and should not be used in a production environment.
+
+# Feedback
+
+- If you have any feedback, please reach out to us at
+-  [INSTAGRAM](https://instagram.com/ethicalfaizan)
+-  [GITHUB](https://github.com/faizan-khanx)
+-  [EMAIL](mailto:fk776794@gmail.com)
 
 
