@@ -14,9 +14,8 @@ A simple honeypot implementation to capture and monitor malicious activity. This
 - [Installation](#installation)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Monitoring](#monitoring)
+- [Monitoring](**Monitoring**)
 - [Notes](#notes)
-- [License](#license)
 
 ## Features
 
