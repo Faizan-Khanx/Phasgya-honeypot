@@ -4,7 +4,8 @@ A simple honeypot implementation to capture and monitor malicious activity. This
 
 **_Project Ongoing...⌛_**
 
-![honeypotrun](https://github.com/user-attachments/assets/ad39a6f7-fcfc-4052-a0de-d88deba95d44)
+![honey](https://github.com/user-attachments/assets/a633c386-2043-4d3f-af28-e245e8f38fcc)
+
 
 
 ## Table of Contents
